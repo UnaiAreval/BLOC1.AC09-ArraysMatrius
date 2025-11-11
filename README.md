@@ -1,3 +1,2 @@
-# BLOC1.AC09 - Arrays, Matrius i Jagged Arrays
-
-Aquest repositori és una activitat per practicar arrays, matrius i jagged arrays. Cada branca és un exercici, i el README d'aquella branca conte l'enunciat de l'exercici corresponent.
+### Exercici 1
+Implementa un programa que demani o generi aleatòriament 20 nombres enters per teclat i retorni els valors separats en dues files: parell i senars.
