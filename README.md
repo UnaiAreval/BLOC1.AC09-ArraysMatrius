@@ -1,5 +1,17 @@
-# BLOC1.AC09 - Arrays, Matrius i Jagged Arrays
+### Exercici 6
+Has de crear un sistema que generi mapes on les caselles tenen propietats diferents segons la posició de la seva fila i columna (no segons el valor emmagatzemat). Les regles es basen en si les posicions són parells o senars.
 
-Aquest repositori és una activitat per practicar arrays, matrius i jagged arrays. Cada branca és un exercici, i el README d'aquella branca conte l'enunciat de l'exercici corresponent.
 
-- Els exercicis 3 i 4 estaran fets en la mateixa branca, en la que el 3 serà l'original i el 4 un commit actualitzant-lo
+1. #### Array Unidimensional (Tropes): 
+Crea un array de 10 elements que representi una fila de caselles on es despleguen tropes.
+ - Les posicions parells (0, 2, 4...) són "Zones Defensives" (imprimeix 🛡️).
+ - Les posicions senars (1, 3, 5...) són "Zones d'Atac" (imprimeix ⚔️).
+2. #### Matriu Bidimensional (Mapa):
+Crea una matriu 5x5 que representi el terreny de joc.
+ - Si fila i columna són parells: "Torre de Guaita" (imprimeix 🗼).
+ - Si fila i columna són senars: "Cova Amagada" (imprimeix 🕳️).
+ - Altres casos: "Terreny Neutral" (imprimeix 🌿).
+3. #### Jagged Array (Regions):
+Crea un jagged array amb 3 files, on la primera fila té 4 columnes, la segona 2 i la tercera 3.
+ - Posicions on fila + columna és senar: "Recurs Extra" (imprimeix 💎).
+ - Posicions on fila + columna és parell: "Terreny Buit" (imprimeix ➖).
