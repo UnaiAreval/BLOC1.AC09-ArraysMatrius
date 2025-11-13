@@ -4,14 +4,14 @@ Has de crear un sistema que generi mapes on les caselles tenen propietats difere
 
 1. #### Array Unidimensional (Tropes): 
 Crea un array de 10 elements que representi una fila de caselles on es despleguen tropes.
- - Les posicions parells (0, 2, 4...) són "Zones Defensives" (imprimeix Q).
- - Les posicions senars (1, 3, 5...) són "Zones d'Atac" (imprimeix X).
+ - Les posicions parells (0, 2, 4...) són "Zones Defensives" (imprimeix 🛡️).
+ - Les posicions senars (1, 3, 5...) són "Zones d'Atac" (imprimeix ⚔️).
 2. #### Matriu Bidimensional (Mapa):
 Crea una matriu 5x5 que representi el terreny de joc.
- - Si fila i columna són parells: "Torre de Guaita" (imprimeix T).
- - Si fila i columna són senars: "Cova Amagada" (imprimeix o).
- - Altres casos: "Terreny Neutral" (imprimeix Y).
+ - Si fila i columna són parells: "Torre de Guaita" (imprimeix 🗼).
+ - Si fila i columna són senars: "Cova Amagada" (imprimeix 🕳️).
+ - Altres casos: "Terreny Neutral" (imprimeix 🌿).
 3. #### Jagged Array (Regions):
 Crea un jagged array amb 3 files, on la primera fila té 4 columnes, la segona 2 i la tercera 3.
- - Posicions on fila + columna és senar: "Recurs Extra" (imprimeix V).
- - Posicions on fila + columna és parell: "Terreny Buit" (imprimeix -).
+ - Posicions on fila + columna és senar: "Recurs Extra" (imprimeix 💎).
+ - Posicions on fila + columna és parell: "Terreny Buit" (imprimeix ➖).
